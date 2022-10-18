@@ -33,6 +33,27 @@ variable "object_id" {
 variable "synapse_workspace" {
 type = string 
 }
+variable "synapse_dedicated_sql" {
+type = string 
+}
+variable "synapse_dedicated_sql_skuname" {
+type = string 
+}
+variable "synapse_sparkpool" {
+type = string 
+}
+variable "sqlserver" {
+type = string 
+}
+variable "storageaccount" {
+  type = string
+}
+variable "sqldatabase" {
+  type = string  
+}
+variable "linux-virtual-machine" {
+  type = string
+}
 # variable "folder-ad-group" {
 #   type = map(string)
 #   default = {
